@@ -1,0 +1,185 @@
+@charset "utf-8";
+body,h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { margin: 0px ; font-family:"Microsoft Yahei","微软雅黑", Arial,"宋体","sans-serif";; }
+
+html { -webkit-text-size-adjust:none;}
+ol, ul ,li{list-style: none;}
+a { text-decoration:none; cursor:pointer;}
+a:hover { text-decoration: none;}
+img {border: 0;}
+/*头部*/
+html{
+    width: 100%;
+    background: #f8f8f8;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.header{
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #cccccc;
+    /*color:#fff;*/
+    color: #333;
+    font-size: 18px;
+    padding-top:5px;
+    padding-left:10px ;
+    padding-right: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    /*background:#f10215;*/
+    background: #fff;
+}
+.title{
+    font-size: 20px;
+}
+.header .back{
+    margin-top:5px;
+    float: left;
+    width:20px;
+    height: 20px;
+}
+.header .back img{
+    width:20px;
+    height: 20px;
+}
+.huibg {
+    background: #EEEEEE;
+}
+.cog {
+    width: 30px;
+    float: right;
+}
+.cog a{
+    color: #515151;
+    font-size: 20px;
+}
+/*新增会员中心CSS*/
+.vipsan i{
+    width: 20px;
+}
+.vipcenter {
+    padding: 0px;
+}
+.vipcenter .vipheader {
+    padding: 1em;
+    height: 145px;
+    background: #f10215
+}
+.vipcenter .vipheader .touxiang {
+    background:#fff;
+    width: 70px;
+    height: 70px;
+    margin: 0px auto;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+.vipcenter .vipheader .touxiang img {
+    border-radius: 100%;
+    width: 100%;
+}
+.vipcenter .vipheader .name {
+    font-size: 1.4em;
+    text-align: center;
+    color: #fff;
+    line-height: 2em;
+}
+.vipcenter .yue{
+    position: absolute;
+    left:15%;
+    top:100px;
+    color: #fff;
+
+}
+.vipcenter .jifen{
+    position: absolute;
+    right:15%;
+    top:100px;
+    color: #fff;
+
+}
+.vipcenter .yue p,.vipcenter .yue em,.vipcenter .jifen p,.vipcenter .jifen em{
+     padding-bottom:0;
+     margin: 0;
+    font-size: 18px;
+}
+.vipcenter .vipheader .gztt {
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+}
+.vipcenter .vipsan {
+    padding: 14px 0;
+    background: #fff;
+    border-bottom:1px solid #ccc;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+.vipcenter .vipsan div {
+    border-right:1px solid #ccc;
+}
+.vipcenter .vipsan div:last-child { border: 0px;}
+.vipcenter .vipsan a { color: #666; }
+.vipcenter .vipsan h4 { font-size: 1em; line-height: 1.5em;}
+.vipcenter .vipsan p {padding: 0px; margin: 0px;}
+.vipcenter .vipul { background: #fff; padding: 0px; margin: 0px; border:1px solid #ccc; border-width: 1px 0;}
+.vipcenter .vipul li { padding: 0px 0px; overflow: auto; border-bottom:1px solid #ccc; position: relative;}
+.vipcenter .vipul li:last-child { border: 0px;}
+.vipcenter .vipul li a { color: #666; display:block; padding: 15px 10px; height: 50px; position: relative;  width: 100%;}
+.vipcenter .vipul li .rizi { position: absolute; right: 10px;}
+.vipcenter .vipul li .lvzi { color: #00B285;}
+.vipcenter .vipul li .redzi { color: red;}
+.vipcenter .vipul li .lzz { float: left;}
+.vipcenter .vipul li .icc { float: left; padding-right: 1em; display: block;}
+.vipcenter .vipul li:nth-child(10n+1) .icc { color: #00B285;}
+.vipcenter .vipul li:nth-child(10n+2) .icc { color: #00A1DF;}
+.vipcenter .vipul li:nth-child(10n+3) .icc { color: #FF8000;}
+.vipcenter .vipul li:nth-child(10n+4) .icc { color: #FF4D4D;}
+.vipcenter .vipul li:nth-child(10n+5) .icc { color: #00468C;}
+
+/*底部固定*/
+.footer{
+    width:100%;
+    height: 55px;
+    background:#fff;
+    box-sizing: border-box;
+    border-top:1px solid #CCCCCC;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-top:8px
+}
+.footer ul{
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    width: 95%;
+    margin:0 auto;
+    padding: 0;
+}
+.footer ul li{
+    list-style: none;;
+    -moz-box-flex: 1.0;
+    -webkit-box-flex: 1.0;
+    box-flex: 1.0;
+    text-align: center;
+}
+.footer ul li a i{
+    width:28px;
+    height: 25px;
+    font-size: 20px;
+    color: #5e5e5e;
+}
+.footer ul li a .active{
+    color: #f10215;
+}
+.footer ul li p{
+    font-size: 12px;
+    margin-top: -3px;
+    color: #5e5e5e;
+}
+.active{
+    color: #f10215;
+}
+
+
